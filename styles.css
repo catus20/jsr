@@ -1,13 +1,13 @@
     body {
-    font-family: 'Comic Sans MS', sans-serif;
-    background: linear-gradient(135deg, #b30000, #ff4d4d, #006400, #00b36b);
-    background-size: 300% 300%; /* Dynamisk gradient */
-    animation: julebakgrunn 10s infinite alternate;
-    text-align: center;
-    color: #800000;
-    padding: 2em;
-    margin: 0; /* Fjern marginar rundt body */
-    height: 100vh; /* Fyll heile skjermen */
+        font-family: 'Comic Sans MS', sans-serif;
+        background: linear-gradient(135deg, #b30000, #ff4d4d, #006400, #00b36b);
+        background-size: 300% 300%; /* Dynamisk gradient */
+        animation: julebakgrunn 10s infinite alternate;
+        text-align: center;
+        color: #800000;
+        padding: 2em;
+        margin: 0; /* Fjern marginar rundt body */
+        height: 100vh; /* Fyll heile skjermen */
     }
 
     @keyframes julebakgrunn {
@@ -20,52 +20,52 @@
     }
 
     h1 {    
-    color: #ffffff;
-    font-size: 3em;
-    text-shadow: 2px 2px 5px #fff;
+        color: #ffffff;
+        font-size: 3em;
+        text-shadow: 2px 2px 5px #fff;
     }
 
     .player {
-    margin-top: 2em;
+        margin-top: 2em;
     }
 
     button {
-    background-color: #ff5555;
-    color: white;
-    border: none;
-    padding: 0.75em 1.5em;
-    font-size: 1.2em;
-    cursor: pointer;
-    border-radius: 8px;
-    margin-top: 1em;
-    box-shadow: 3px 3px 5px #000;
+        background-color: #ff5555;
+        color: white;
+        border: none;
+        padding: 0.75em 1.5em;
+        font-size: 1.2em;
+        cursor: pointer;
+        border-radius: 8px;
+        margin-top: 1em;
+        box-shadow: 3px 3px 5px #000;
     }
 
     button:hover {
-    background-color: #ff7777;
+        background-color: #ff7777;
     }
     audio {
-    width: 100%; /* Full breidde */
-    max-width: 400px; /* Avgrens storleiken */
-    margin: 1em auto; /* Sentrer den horisontalt */
-    display: block;
-    background: #ff5555; 
-    border: 2px solid #b30000; 
-    border-radius: 12px; /* Runde kantar */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Lett skygge */
+        width: 100%; /* Full breidde */
+        max-width: 400px; /* Avgrens storleiken */
+        margin: 1em auto; /* Sentrer den horisontalt */
+        display: block;
+        background: #ff5555; 
+        border: 2px solid #b30000; 
+        border-radius: 12px; /* Runde kantar */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Lett skygge */
     }
 
     audio::-webkit-media-controls-panel {
-    background-color: #ff5555; /* Farge på kontrollpanelet */
-    border-radius: 12px;
+        background-color: #ff5555; /* Farge på kontrollpanelet */
+        border-radius: 12px;
     }
 
     audio::-webkit-media-controls-play-button,
     audio::-webkit-media-controls-pause-button {
-    filter: invert(100%); /* Gjer knappane kvite */
+        filter: invert(100%); /* Gjer knappane kvite */
     }
 
     audio::-webkit-media-controls-volume-slider {
-    background-color: #fff; /* Farge på volumbaren */
-    border-radius: 5px;
+        background-color: #fff; /* Farge på volumbaren */
+        border-radius: 5px;
     }
